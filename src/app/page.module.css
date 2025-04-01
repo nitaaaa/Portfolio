@@ -1,0 +1,50 @@
+  .heroSection {
+    background: linear-gradient(45deg, #f8f9fa, #ffffff);
+  }
+  
+  .avatarContainer {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #0d6efd;
+    position: relative;
+  }
+  
+  .avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .socialLink {
+    color: #6c757d;
+    transition: color 0.3s ease;
+  }
+  
+  .socialLink:hover {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  
+  .techCard {
+    background: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.1);
+  }
+  
+  .techCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .stats .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .stats .card:hover {
+    transform: translateY(-5px);
+  }

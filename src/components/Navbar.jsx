@@ -23,8 +23,15 @@ const MyNavbar = () => {
             <Link href="/proyectos" passHref legacyBehavior>
               <Nav.Link>Proyectos</Nav.Link>
             </Link>
-            <Nav.Link href="#habilidades">Habilidades</Nav.Link>
-            <Nav.Link href="#contacto">Contacto</Nav.Link>
+            <Link href="/habilidades" passHref legacyBehavior>
+              <Nav.Link>Habilidades</Nav.Link>
+            </Link>
+            <Link href="/experiencia" passHref legacyBehavior>
+              <Nav.Link>Experiencia</Nav.Link>
+            </Link>
+            <Link href="/contacto" passHref legacyBehavior>
+              <Nav.Link>Contacto</Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

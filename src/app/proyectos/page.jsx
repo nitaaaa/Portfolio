@@ -8,7 +8,6 @@ const proyectos = [
   {
     title: "Sistema de Gestión Médica",
     description: "Plataforma integral para administración de historiales médicos con Next.js y MongoDB",
-    image: "/proyectos/sistema-medico.jpg",
     techs: ["React", "Next.js", "Node.js", "MongoDB"],
     github: "#",
     demo: "#"
@@ -16,7 +15,6 @@ const proyectos = [
   {
     title: "E-commerce Moderno",
     description: "Tienda online con carrito de compras y pasarela de pagos integrada",
-    image: "/proyectos/ecommerce.jpg",
     techs: ["React", "Redux", "Express", "PostgreSQL"],
     github: "#",
     demo: "#"
@@ -24,7 +22,6 @@ const proyectos = [
   {
     title: "Portal de Salud Comunitaria",
     description: "Sistema de citas médicas y telemedicina para el departamento de salud",
-    image: "/proyectos/portal-salud.jpg",
     techs: ["Next.js", "TypeScript", "AWS", "Firebase"],
     github: "#",
     demo: "#"
@@ -71,11 +68,7 @@ export default function Proyectos() {
           <Col key={index} xs={12} md={6} lg={4}>
             <Card className={`${styles.projectCard} h-100 shadow-lg`}>
               <div className={styles.imageContainer}>
-                <Card.Img 
-                  variant="top" 
-                  src={proyecto.image} 
-                  className={styles.cardImage}
-                />
+                
                 <div className={styles.overlay}>
                   <div className={styles.techBadges}>
                     {proyecto.techs.map((tech, i) => (
